@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDC Wonder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <body>
+        <div class="hero">
+            <div class="background">
+                <img id="background-img" src="./Media/Group 10.png">
+                <div class="overlay"></div>
+            </div>
+            <h1 id="title">CDC Wonder</h1>
+            <h3 id="subtitle">Unlocking Health Insights: 
+                Analyzing Indiana and Kentucky CDC PLACES Data 
+                for Informed Public Health Interventions</h3>
+        </div>
+
+        <H3 id="intro">Project Introduction</H3>
+        <div id="intro-content">
+            <p id="intropara">
+                This project aims to automate access to critical national datasets from the CDC WONDER online public health database. By developing a Python Selenium script, the goal is to simplify the data download process, eliminating the need for manual intervention. With its vast array of public health statistics, the CDC WONDER database is an essential source for health data. This project aims to improve the efficiency, quality, and usability of extracted data through automation, which will help both public health practitioners and researchers. The files that were accessed included information on vaccinations, environmental health statistics, cancer statistics, notifiable diseases, death rates, and birth and natality statistics. These datasets play a pivotal role in public health monitoring and decision-making processes.
+           
+        </div>
+        
+        <!-- Project Methodology Section -->
+<div id="methodology">
+    <h3 id="methodtitle">Project Methodology:</h3>
+    <p id="projectmethodtext">Our methodology focuses on the automation of interactions with the CDC WONDER online database through a custom Python Selenium script. The script is designed to handle the dynamic elements of the database’s interface, download the specified datasets, and process them into a clean CSV format. Continuous feedback from stakeholders ensures the script remains aligned with user needs, facilitating regular updates and enhancements.</p>
+</div>
+
+<h3 id="workflowtitle">Workflow</h3>
+<img id="workflow" src="./Media/Workflow.png">
+
+<div class="data-visualizations-section">
+    <h2 class="heading">Results</h2>
+  </div>
+
+<div id="observablehq-996c7482"></div>
+<p>Credit: <a href="https://observablehq.com/@nasiruddin-ws/cdc-wonder-api-viz">CDC WONDER API VIZ by Nasiruddin&#039;s Workspace</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/@nasiruddin-ws/cdc-wonder-api-viz.js?v=4";
+new Runtime().module(define, Inspector.into("#observablehq-996c7482"));
+</script>
+
+<H3 id="summary">Summary</H3>
+<ul id="summarytext">
+    <li>Our comprehensive analysis of the CDC Wonder data reveals significant insights into mortality trends, the prevalence of chronic diseases, and the impact of race and age on health outcomes. </li>
+    <li>Mortality rates have increased steadily from 2018 to 2021, with chronic lower respiratory diseases emerging as a predominant cause of death among older adults in both Indiana and Central Indiana.</li>
+    <li>Racial disparities show higher mortality rates among Black or African American populations compared to Hispanic or Latino populations. Accidental deaths, though fewer, underscore the need for preventive measures.</li>
+    <li>These visualizations offer clear insights into these complex patterns, facilitates us in informed decision-making and targeted interventions to address disparities and improve health outcomes.</li>
+</ul>
+
+<div class="footer">
+    <h2 id="meet">MEET THE</h2>
+    <h1 id="projectteam">Project Team</h1>
+  
+    <table border="1">
+      <tr>
+        <th><strong>Name</strong></th>
+        <th><strong>Role</strong></th>
+        <th><strong>Email</strong></th>
+      </tr>
+  
+      <tr>
+        
+        <td>Hasaranga Jayathilake Dilshan</td>
+        <td>Project Lead</td>
+        <td><a href="mailto:hdjayath@iu.edu">hdjayath@iu.edu</a></td>
+      </tr>
+  
+      <tr>
+        
+        <td>Pericherla Supraja</td>
+        <td>Project Lead</td>
+        <td><a href="mailto:sperich@iu.edu">sperich@iu.edu</a></td>
+      </tr>
+      <tr>
+        
+        <td>Jay Colbert</td>
+        <td>Project Advisor</td>
+        <td><a href="mailto:jtcolber@iu.edu">jtcolber@iu.edu</a></td>
+      </tr>
+
+    </tr>
+    <td>Vahini Matlakunta</td>
+    <td>Project Manager</td>
+    <td><a href="mailto:vmatlaku@iu.edu">vmatlaku@iu.edu</a></td>
+  </tr>
+  <tr>
+        
+    <td>Deepak Shersingh Rajput</td>
+    <td>Team Member</td>
+    <td><a href="mailto:drajput@iu.edu">drajput@iu.edu</a></td>
+  </tr>
+  <tr>
+    <td>Nasiruddin Khazi</td>
+    <td>Team Member</td>
+    <td><a href="mailto:naskhazi@iu.edu">naskhazi@iu.edu</a></td>
+  </tr>
+  <tr>
+    <td>Ahteshamuddin Mohammed</td>
+    <td>Team Member</td>
+    <td><a href="mailto:mohamah@iu.edu"<>mohamah@iu.edu</a></td>
+  </tr>
+        
+<tr>
+        <td>Bala Satya Venkat Tangudu</td>
+        <td>Team Member</td>
+        <td><a href="mailto:btangudu@iu.edu">btangudu@iu.edu</a></td>
+      </tr>
+
+      <tr>
+        <td>Saksham Rajput</td>
+        <td>Web Developer</td>
+        <td><a href="mailto:sarajput@iu.edu">sarajput@iu.edu</a></td>
+      </tr>
+    </table>
+  
+    <div class="source-code">
+      <p><strong>Technologies Used:</strong></p>
+        <ul>
+      <li>Python Selenium</li>
+       <li>Microsoft Excel</li> 
+        <li>Observable (for visualization)</li></ul></Python></p>
+      <p>Project Repository: <a href="https://github.com/MD-AHTESHAMUDDIN/CDC-Wonder-API ">GitHub - CDC Wonder API</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
